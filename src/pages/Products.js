@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
@@ -6,13 +6,13 @@ const Products = () => {
       <h1>The Products Page</h1>
       <ul>
         <li>
-          <NavLink to="/product-detail/A-Book">A Book</NavLink>
+          <Link to="/products/A-Book">A Book</Link>
         </li>
         <li>
-          <NavLink to="/product-detail/A-Carpet">A Carpet</NavLink>
+          <Link to="/products/A-Carpet">A Carpet</Link>
         </li>
         <li>
-          <NavLink to="/product-detail/A-Course">An Online Course</NavLink>
+          <Link to="/products/A-Course">An Online Course</Link>
         </li>
       </ul>
     </section>

@@ -1,3 +1,5 @@
+import { Route } from "react-router-dom";
+
 const Welcome = () => {
   return (
     <section>
